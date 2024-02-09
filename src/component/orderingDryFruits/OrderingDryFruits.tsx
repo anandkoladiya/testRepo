@@ -112,9 +112,7 @@ export const DryFruitSliderForOrder: React.FC<DryFruitSliderForOrderProps> = (pr
     const price = props.data.price
     const total = price * quantity;
     const roundedTotal = total.toFixed(2);
-    console.log(
 
-    );
 
     const addToCart = () => {
         const productData = {
